@@ -43,6 +43,7 @@ export default function Moods() {
     setMood(happyMood)
   };
   const makeSad = () => {
+    /* STEP 5 */
     setMood(sadMood)
   };
   const reset = () => {
