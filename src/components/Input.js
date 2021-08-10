@@ -60,7 +60,7 @@ export default function Input() {
   return (
     <div className='widget-input container'>
       <h2>Input</h2>
-      <div id='output' style={style}></div> {inputValue.toUpperCase()}
+      <div id='output' style={style}>{inputValue.toUpperCase()}</div> 
       <div>
         <input id='input' type='text' onChange={changeInput} value ={inputValue} /> 
         <button id='resetInput' onClick={reset}>Reset</button>
